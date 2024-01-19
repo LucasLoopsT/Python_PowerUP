@@ -7,7 +7,7 @@ import time
 email = "Lucas" 
 password = "python24"
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
-tabela = pd.read_csv("C:/Users/Lucas/Desktop/Outros/Python/Python_PowerUP/produtos.csv")
+tabela = pd.read_csv("https://raw.githubusercontent.com/LucasLoopsT/Python_RPA/main/Python_PowerUP/produtos.csv")
 pyautogui.PAUSE = 0.5
 
 # Function to write text using the params, then press tab.
